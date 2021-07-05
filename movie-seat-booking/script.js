@@ -15,7 +15,7 @@ function updateSelectedCount() {
             bookedSeats.forEach(id => {
                 if (bookedSeats.indexOf(el.id) === -1) {
                     bookedSeats.push(el.id);
-               }
+                }
             });
         } else {
             bookedSeats.push(el.id);
